@@ -19,8 +19,8 @@ nightmare.on('download', function (state, downloadItem) {
 
 nightmare
   .downloadManager()
-  .goto('http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2781538')
-  .click(process.arg)
+  .goto(process.argv[2])
+  .click(process.argv[3])
   .wait(500)
   .evaluate(function () {
     return document.title
