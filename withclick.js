@@ -12,7 +12,7 @@ var nightmare = Nightmare()
 
 nightmare.on('download', function (state, downloadItem) {
   if (state === 'started') {
-    console.log(downloadItem)
+    console.log('downloading from', downloadItem.url, 'to', downloadItem.filename)
     nightmare.emit('download', downloadItem.filename, downloadItem)
   }
 })
