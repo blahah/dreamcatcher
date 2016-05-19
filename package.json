@@ -1,0 +1,17 @@
+{
+  "name": "dreamcatcher",
+  "version": "0.0.1",
+  "description": "Render URLs or HTML code and get the rendered HTML back",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Richard Smith-Unna",
+  "license": "MIT",
+  "dependencies": {
+    "nightmare": "^2.4.0",
+    "nightmare-download-manager": "^0.1.1",
+    "nightmare-inline-download": "^0.1.1"
+  },
+  "devDependencies": {}
+}
