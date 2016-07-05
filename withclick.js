@@ -1,7 +1,7 @@
 #! /usr/bin/env node
 
 // load a page, click a link and then capture any downloads in the current directory
-// usage: ./nologin.js url link-selector
+// usage: ./withclick.js url link-selector
 // e.g. ./withclick.js http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2781538 'a[title="Download Full-Text Paper"]'
 
 var Nightmare = require('nightmare')
